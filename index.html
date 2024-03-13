@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>price page</title>
+    <style>
+        body {
+            background-color: rgba(200, 221, 83, 0.726);
+        }
+
+        .container {
+            justify-content: center;
+            display: flex;
+            /* display: grid;
+            grid-column: 3; */
+
+        }
+
+        h4 {
+            text-transform: uppercase;
+            font-size: 33px;
+            text-align: center;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bold;
+            font-style: italic;
+            color: rgba(27, 238, 220, 0.795);
+        }
+
+        p {
+            text-align: center;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: 700;
+            font-size: 17px;
+        }
+h5{
+    text-align: center;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: 700;
+            font-size: 18px;
+            padding: 0px;
+            /* margin-bottom: 30px; */
+}
+        .box1 {
+            padding: 25PX;
+            margin-right: 39px;
+            height: 350px;
+            width: 230px;
+            background-color: rgba(209, 204, 204, 0.541);
+            border-radius: 20PX;
+            display: inline-block;
+            cursor: pointer;
+
+        }
+
+        .box1:HOVER {
+            background: linear-gradient(90deg, rgba(5, 125, 205, 1) 55%, rgb(8, 166, 197) 87%);
+            color: aliceblue;
+            transition-duration: 1s;
+        }
+
+        .box1:HOVER >h2  {
+            color: rgb(255, 255, 255);
+        }
+        .box1:HOVER >button  {
+            color: rgb(5, 4, 4);
+            background-color: antiquewhite;
+        }
+       
+
+        H3 {
+
+            text-align: center;
+            font-weight: 800;
+            font-size: 23PX;
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 33PX;
+            font-weight: 900;
+            color: rgb(79, 218, 218);
+            transition-duration: 1s;
+        }
+
+        h2:hover {
+            color: aliceblue;
+          
+        }
+
+        .NOTE {
+            text-align: center;
+            margin-left: 10px;
+        }
+
+        button {
+            margin-top: 20PX;
+            font-weight: 900;
+            margin-left: 80PX;
+            display: flex; 
+           justify-content: center;
+            border-radius: 8PX;
+            padding: 4PX;
+            background-color: black;
+            color: aliceblue;
+            transition-duration: 1s;
+        }
+
+        button:HOVER {
+            background-color: white;
+            color: black;
+        }
+        .b{
+            margin-left: 600PX;
+            background: linear-gradient(90deg, rgba(5, 125, 205, 1) 55%, rgb(8, 166, 197) 87%);
+       color: rgb(252, 252, 252);
+    cursor: pointer; }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="title">
+            <h4>pricing</h4>
+            <h5>plans that work for everyone</h5>
+            <div class="box1">
+                <h3>BASIC</h3>
+                <h2>&#36 4.99 <BR>/month</h2>
+                <P class="NOTE">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat adipisci at ea eaque
+                    perferendis sunt. Odit molestias</P>
+                <button>JOIN NOW</button>
+
+            </div>
+            <div class="box1">
+                <h3>SUPER</h3>
+                <h2>&#36 9.99 <BR>/month</h2>
+                <P class="NOTE">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat adipisci at ea eaque
+                    perferendis sunt. Odit molestias</P>
+                <button>JOIN NOW</button>
+            </div>
+            <div class="box1">
+                <h3>ENTERPRICE</h3>
+                <h2>&#36 14.99 <BR>/month</h2>
+                <P class="NOTE">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat adipisci at ea eaque
+                    perferendis sunt. Odit molestias</P>
+                <button class="JOIN">JOIN NOW</button>
+            </div>
+        </div>
+    </div>
+    <p class="a">Need something different?No problem</p>
+    <button class="b">GET IN TOUCH</button>
+</body>
+
+</html>
